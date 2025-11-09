@@ -1,0 +1,18 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './styles/index.css'
+import '../public/assets/scss/main.scss'
+import '../public/assets/css/main.css'
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/effect-fade';
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/effect-fade';
+import App from './App.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
