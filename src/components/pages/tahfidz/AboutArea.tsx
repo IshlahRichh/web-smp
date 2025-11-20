@@ -8,26 +8,20 @@ const AboutArea = () => {
          <img className="tg-about-details-shape p-absolute d-none d-lg-block" src="/assets/img/about/details/shape.png" alt="shape" />
          <div className="container">
             <div className="row align-items-center">
-               <div className="col-lg-6">
-                  <div className="tg-about-details-left p-relative mb-15">
-                     <img className="tg-about-details-map p-absolute" src="/assets/img/about/details/shape-2.png" alt="map" />
-                     <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-6">
-                           <div className="tg-about-details-thumb p-relative z-index-9">
-                              <img className="main-thumb tg-round-15 w-100 mb-20" src="/assets/img/about/details/thumb-1.jpg" alt="thumb" />
-                              <img className="main-thumb tg-round-15 w-100 mb-20" src="/assets/img/about/details/thumb-3.jpg" alt="thumb" />
-                           </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
-                           <div className="tg-about-details-thumb-2 p-relative">
-                              <div className="tg-chose-3-rounded p-relative mb-30">
-                                 <img className="rotate-infinite-2" src="/assets/img/chose/chose-3/circle-text.png" alt="" />
-                                 <img className="tg-chose-3-star" src="/assets/img/chose/chose-3/star.png" alt="" />
-                              </div>
-                              <img className="w-100 tg-round-15" src="/assets/img/about/details/thumb-2.jpg" alt="chose" />
-                           </div>
-                        </div>
-                     </div>
+               <div className="col-lg-4">
+                  <div className="tg-chose-thumb-2 wow fadeInRight p-relative mb-65" data-wow-delay=".5s" data-wow-duration=".9s">
+                     <img className="w-100 tg-round-15 d-none d-md-block" src="/assets/img/program-kelas/model-8.png" alt="chose" />
+                     {/* Gradient putih di bagian bawah */}
+                     <div style={{
+                        position: 'absolute',
+                        bottom: '0',
+                        left: '0',
+                        right: '0',
+                        height: '20%',
+                        background: 'linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%, transparent 100%)',
+                        borderRadius: '0 0 15px 15px',
+                        pointerEvents: 'none'
+                     }}></div>
                   </div>
                </div>
                <div className="col-lg-6">

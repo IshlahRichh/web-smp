@@ -9,7 +9,7 @@ const BreadCrumb = () => {
             <div className="row">
                <div className="col-12">
                   <div className="tg-breadcrumb-content text-center">
-                     <h2 className="tg-breadcrumb-title mb-15">Program Kelas</h2>
+                     <h2 className="tg-breadcrumb-title mb-15">Program Kelas Excellent</h2>
                      <div className="tg-breadcrumb-list">
                         <span><Link to="/">Home</Link></span>
                         <span className="dvdr"><i className="fa-sharp fa-solid fa-angle-right"></i></span>
