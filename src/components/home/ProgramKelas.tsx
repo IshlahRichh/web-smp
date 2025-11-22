@@ -7,10 +7,10 @@ import Choose3 from "../../svg/home-one/Choose3";
 const Choose = () => {
 	return (
 		<div className="tg-chose-area p-relative">
-			<img className="tg-chose-shape p-absolute" style={{ marginLeft: '-70px' }} src="/assets/img/chose/school-shape.png" alt="shape" />
+			<img className="tg-chose-shape p-absolute d-none d-lg-block" style={{ marginLeft: '-70px' }} src="/assets/img/chose/school-shape.png" alt="shape" />
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-5">
+					<div className="col-lg-5 col-12">
 						<div className="tg-chose-content mb-100">
 							<div className="tg-chose-section-title mb-30">
 								{/* <h5 className="tg-section-subtitle mb-15 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".1s">Dream Your Next Class</h5> */}
@@ -54,12 +54,12 @@ const Choose = () => {
 									</Link>
 								</div> */}
 							</div>
-						</div>
 					</div>
+				</div>
 
-					<div className="col-lg-7">
-						<div className="tg-chose-right mb-25">
-							<div className="row">
+				<div className="col-lg-7 d-none d-lg-block">
+					<div className="tg-chose-right mb-25">
+						<div className="row">
 								<div className="col-lg-10 col-md-6">
 									<div className="tg-chose-thumb-2 wow fadeInRight p-relative" data-wow-delay=".5s" data-wow-duration=".9s">
 										<img className="w-100 tg-round-15 d-none d-md-block" src="/assets/img/program-kelas/model-8.png" alt="chose" />
@@ -77,7 +77,7 @@ const Choose = () => {
 									</div>
 								</div>
 								<div className="col-lg-2 col-md-6">
-									<div className="tg-chose-thumb-inner p-relative" style={{ paddingTop: '600px' }}>
+									<div className="tg-chose-thumb-inner p-relative" style={{ paddingTop: '800px' }}>
 										<div className="tg-chose-big-text d-none d-xl-block">
 											<h2 data-text="SPEMDUTA">SPEMDUTA</h2>
 										</div>

@@ -8,7 +8,7 @@ import Location from "./Location"
 import Testimonial from "./Testimonial"
 import Cta from "../home-one/Cta"
 import Header from "../../../layouts/headers/Header"
-import BannerFormThree from "../../common/banner-form/BannerForm"
+import BannerFormThree from "../../home/BannerForm"
 import FooterThree from "../../../layouts/footers/FooterThree"
 import Listing from"./Listing";
 

@@ -8,7 +8,7 @@ import Banner from "./Banner"
 import Nonakademik from "./Nonakademik"
 import Testimonial from "./Testimonial"
 import Header from "../../layouts/headers/Header"
-import BannerForm from "../common/banner-form/BannerForm"
+import BannerForm from "./BannerForm"
 import Footer from "../../layouts/footers/Footer"
 // import Alur from"./Alur";
 
