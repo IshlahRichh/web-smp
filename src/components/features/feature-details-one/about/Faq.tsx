@@ -66,7 +66,7 @@ const Faq = () => {
    return (
       <div className="tg-tour-faq-wrap mb-70">
          <h4 className="tg-tour-about-title mb-15">Why SPEMDUTA</h4>
-         <p className="text-capitalize lh-28 mb-20">SPEMDUTA is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, asperiores quasi repellendus reprehenderit ullam suscipit facere numquam atque alias non impedit, voluptatum quo nulla veritatis modi veniam harum sed vitae.</p>
+         <p className="lh-28 mb-20">SPEMDUTA (SMP Muhammadiyah 2 Taman) adalah pilihan terbaik untuk pendidikan menengah pertama yang mengedepankan keseimbangan antara prestasi akademik dan pembentukan karakter Islami. Dengan kurikulum yang terintegrasi, fasilitas modern, dan tenaga pengajar profesional yang berpengalaman, kami berkomitmen membentuk generasi muda yang unggul dalam ilmu pengetahuan, berakhlak mulia, dan siap menghadapi tantangan masa depan. Lingkungan sekolah yang kondusif dan berbasis nilai-nilai Islami menciptakan atmosfer belajar yang nyaman, didukung dengan program bimbingan konseling yang berkelanjutan untuk memastikan setiap siswa dapat mengembangkan potensi terbaiknya secara optimal.</p>
          <div className="tg-tour-about-faq-inner">
             <div className="tg-tour-about-faq" id="accordionExample">
                {faqData.map((item) => (
