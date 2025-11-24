@@ -10,7 +10,13 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-minimal
 *.local
+
+# Build archives
+*.zip
+*.rar
+*.tar.gz
 
 # Editor directories and files
 .vscode/*
