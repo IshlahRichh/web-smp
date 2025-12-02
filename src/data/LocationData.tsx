@@ -171,13 +171,13 @@ const location_data: DataType[] = [
    {
       id: 1,
       page: "excellent",
-      thumb: "/assets/img/program-kelas/excellent/img-1.png",
+      thumb: "/assets/img/program-kelas/excellent/img-1.jpg",
       title: "excellent-1",
    },
    {
       id: 2,
       page: "excellent",
-      thumb: "/assets/img/program-kelas/excellent/img-2.png",
+      thumb: "/assets/img/program-kelas/excellent/img-2.jpg",
       title: "excellent-2",
    },
    {
@@ -190,19 +190,19 @@ const location_data: DataType[] = [
    {
       id: 1,
       page: "tahfidz",
-      thumb: "/assets/img/program-kelas/tahfidz/img-1.JPG",
+      thumb: "/assets/img/program-kelas/tahfidz/img-1.jpg",
       title: "tahfidz-1",
    },
    {
       id: 2,
       page: "tahfidz",
-      thumb: "/assets/img/program-kelas/tahfidz/img-2.png",
+      thumb: "/assets/img/program-kelas/tahfidz/img-2.jpg",
       title: "tahfidz-2",
    },
    {
       id: 3,
       page: "tahfidz",
-      thumb: "/assets/img/program-kelas/tahfidz/img-3.JPG",
+      thumb: "/assets/img/program-kelas/tahfidz/img-3.jpg",
       title: "tahfidz-3",
    },
    {
@@ -215,25 +215,25 @@ const location_data: DataType[] = [
    {
       id: 1,
       page: "mico",
-      thumb: "/assets/img/program-kelas/m-ico/img-1.png",
+      thumb: "/assets/img/program-kelas/m-ico/img-1.jpg",
       title: "mico-1",
    },
    {
       id: 2,
       page: "mico",
-      thumb: "/assets/img/program-kelas/m-ico/img-2.png",
+      thumb: "/assets/img/program-kelas/m-ico/img-2.jpg",
       title: "mico-2",
    },
    {
       id: 3,
       page: "mico",
-      thumb: "/assets/img/program-kelas/m-ico/img-3.JPG",
+      thumb: "/assets/img/program-kelas/m-ico/img-3.jpg",
       title: "mico-3",
    },
    {
       id: 4,
       page: "mico",
-      thumb: "/assets/img/program-kelas/m-ico/img-4.JPG",
+      thumb: "/assets/img/program-kelas/m-ico/img-4.jpg",
       title: "mico-4",
    },
 
@@ -242,28 +242,28 @@ const location_data: DataType[] = [
    { 
       id: 1, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-1.png", 
+      thumb: "/assets/img/about/thumb/img-1.jpg", 
       title: "Paris" 
    },
 
    { 
       id: 2, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-2.png", 
+      thumb: "/assets/img/about/thumb/img-2.jpg", 
       title: "London" 
    },
 
    { 
       id: 3, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-3.png", 
+      thumb: "/assets/img/about/thumb/img-3.jpg", 
       title: "New York" 
    },
 
    { 
       id: 4, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-4.png", 
+      thumb: "/assets/img/about/thumb/img-4.jpg", 
       title: "Tokyo" 
    },
 
@@ -284,35 +284,35 @@ const location_data: DataType[] = [
    { 
       id: 7, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-7.JPG", 
+      thumb: "/assets/img/about/thumb/img-7.jpg", 
       title: "Barcelona" 
    },
 
    { 
       id: 8, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-8.JPG", 
+      thumb: "/assets/img/about/thumb/img-8.jpg", 
       title: "Amsterdam" 
    },
 
    { 
       id: 9, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-9.JPG", 
+      thumb: "/assets/img/about/thumb/img-9.jpg", 
       title: "Seoul" 
    },
 
    { 
       id: 10, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-10.png", 
+      thumb: "/assets/img/about/thumb/img-10.jpg", 
       title: "Dubai" 
    },
 
    { 
       id: 11, 
       page: "about", 
-      thumb: "/assets/img/about/thumb/img-11.png", 
+      thumb: "/assets/img/about/thumb/img-11.jpg", 
       title: "Sydney" 
    },
 ];

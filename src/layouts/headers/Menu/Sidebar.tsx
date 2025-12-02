@@ -26,14 +26,13 @@ const Sidebar = ({ sidebar, setSidebar }: SidebarProps) => {
                </div>
                <div className="contact-list mb-30">
                   <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>example.mail@hum.com</p>
+                  <p>info@spemduta.sch.id</p>
                </div>
             </div>
             <div className="offCanvas__social-icon mt-30">
                <Link to="https://www.instagram.com/spemduta"><i className="fab fa-instagram"></i></Link>
                <Link to="https://www.tiktok.com/@spemduta"><i className="fab fa-tiktok"></i></Link>
-               <Link to="https://www.toutube.com/@spemduta"><i className="fab fa-youtube"></i></Link>
+               <Link to="https://www.youtube.com/@spemduta135"><i className="fab fa-youtube"></i></Link>
                <Link to="https://www.facebook.com/spemduta"><i className="fab fa-facebook-f"></i></Link>
             </div>
          </div>

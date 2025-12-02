@@ -46,7 +46,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                   <ul className="list-wrap">
                      <li><Link to="https://www.instagram.com/spemduta"><i className="fab fa-instagram"></i></Link></li>
                      <li><Link to="https://www.tiktok.com/@spemduta"><i className="fab fa-tiktok"></i></Link></li>
-                     <li><Link to="https://www.youtube.com/@spemduta"><i className="fab fa-youtube"></i></Link></li>
+                     <li><Link to="https://www.youtube.com/@spemduta135"><i className="fab fa-youtube"></i></Link></li>
                      <li><Link to="https://www.facebook.com/spemduta"><i className="fab fa-facebook-f"></i></Link></li>
                   </ul>
                </div>

@@ -54,7 +54,6 @@ const Alur = () => {
       duration: 800,
       once: true,
       offset: 250,
-      onabort: function() { AOS.refresh(); },
     });
   }, []); 
 

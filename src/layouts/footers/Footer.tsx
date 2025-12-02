@@ -28,12 +28,12 @@ const Footer = () => {
                            <div className="tg-footer-social">
                               <Link to="https://www.instagram.com/spemduta"><i className="fab fa-instagram"></i></Link>
                               <Link to="https://www.tiktok.com/@spemduta"><i className="fab fa-tiktok"></i></Link>
-                              <Link to="https://www.toutube.com/@spemduta135"><i className="fab fa-youtube"></i></Link>
+                              <Link to="https://www.youtube.com/@spemduta135"><i className="fab fa-youtube"></i></Link>
                               <Link to="https://www.facebook.com/spemduta"><i className="fab fa-facebook-f"></i></Link>
                            </div>
                         </div>
                      </div>
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-6">
                         <div className="tg-footer-widget tg-footer-link ml-80 mb-40">
                            <h3 className="tg-footer-widget-title mb-25">Quick Links</h3>
                            <ul>
@@ -45,7 +45,7 @@ const Footer = () => {
                            </ul>
                         </div>
                      </div>
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-6">
                         <div className="tg-footer-widget tg-footer-link mb-40">
                            <h3 className="tg-footer-widget-title mb-25">Program Kelas</h3>
                            <ul>
