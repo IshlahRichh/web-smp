@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
             <div className="tg-footer-copyright text-center">
                <span>
-                  Copyright © made with 🤎 by <Link to="/">IshlahYT</Link>
+                  © {new Date().getFullYear()} made with 🤎 by <Link to="/">IshlahYT</Link>
                </span>
             </div>
          </div>

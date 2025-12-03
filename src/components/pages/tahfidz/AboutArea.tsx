@@ -29,10 +29,7 @@ const AboutArea = () => {
                      <div className="tg-chose-section-title mb-30">
                         <h5 className="tg-section-subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".1s">Program Kelas</h5>
                         <h1 className="mb-15 text-capitalize wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".9s">Tahfidz</h1>
-                        <p className="text-capitalize wow fadeInUp mb-35" data-wow-delay=".5s" data-wow-duration=".9s"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolores molestiae unde aspernatur atque cumque? Nisi odit a quo natus molestias magni minus possimus consectetur enim doloremque incidunt, deserunt unde tenetur perferendis molestiae? when an unknown printer took a galley of type and scrambled
-                           it to make a type specimen book. It has survived not only five
-                           centuries but also the leap into electronic typesetting<br />
-                           remaining essentially unchanged.</p>
+                        <p className="text-capitalize wow fadeInUp mb-35" data-wow-delay=".5s" data-wow-duration=".9s"> Tahfidz Class merupakan program yang bekerja sama dengan Tajdid Center PWM Jawa Timur dalam pengembangan keterampilan membaca, menulis, menghafal, dan memahami Al-Qur’an dengan target minimal 3 juz. Melalui metode tahsin dan tahfidz yang sistematis, program ini fokus membangun dasar kemampuan membaca Al-Qur’an yang baik dan benar, serta menanamkan kedisiplinan hafalan harian yang terstruktur. Selain menghafal, siswa juga dibimbing untuk memahami makna ayat, memperbaiki akhlak, dan membiasakan diri dengan lingkungan Qur’ani sehingga tercipta karakter religius yang kuat dan berkelanjutan.</p>
                         <div className="tg-chose-btn wow fadeInUp" data-wow-delay=".8s" data-wow-duration=".9s">
                            <Link to="/tour-details" className="tg-btn tg-btn-switch-animation">
                               <Button text="Daftar Sekarang" />

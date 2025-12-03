@@ -79,7 +79,7 @@ const BannerForm = () => {
                   <div className="">
                      {/* Countdown Gelombang */}
                      <div 
-                        className="p-4 rounded text-center position-relative"
+                        className="p-4 rounded-x3l text-center position-relative"
                         style={{
                            background: 'white',
                            boxShadow: '0 10px 40px rgba(0,0,0,0.1)',

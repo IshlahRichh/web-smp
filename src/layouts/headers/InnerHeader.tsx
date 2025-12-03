@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import Offcanvas from "./Menu/Offcanvas";
 import Sidebar from "./Menu/Sidebar";
-import HeaderSearch from "./Menu/HeaderSearch";
 import UseSticky from "../../hooks/UseSticky";
 const InnerHeader = () => {
 
    const { sticky } = UseSticky();
    const [offCanvas, setOffCanvas] = useState<boolean>(false);
    const [sidebar, setSidebar] = useState<boolean>(false);
-   const [isSearch, setIsSearch] = useState<boolean>(false);
 
    return (
       <>
@@ -54,7 +52,6 @@ const InnerHeader = () => {
          </header>
          <Offcanvas offCanvas={offCanvas} setOffCanvas={setOffCanvas} />
          <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
-         <HeaderSearch isSearch={isSearch} setIsSearch={setIsSearch} />
       </>
    )
 }
