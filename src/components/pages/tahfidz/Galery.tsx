@@ -24,24 +24,15 @@ const Galery = () => {
                 data-wow-delay=".4s"
                 data-wow-duration=".9s"
               >
-                Next Adventure Destination
+                Dokumentasi Kegiatan
               </h5>
               <h2
                 className="mb-15 text-capitalize wow fadeInUp"
                 data-wow-delay=".5s"
                 data-wow-duration=".9s"
               >
-                Popular Travel Destinations <br /> Available Worldwide
+                Program Kelas Tahfidz
               </h2>
-              <p
-                className="text-capitalize wow fadeInUp"
-                data-wow-delay=".6s"
-                data-wow-duration=".9s"
-              >
-                Are you tired of the typical tourist destinations and looking
-                <br />
-                to step out of your comfort zone travel
-              </p>
             </div>
           </div>
           <div className="col-lg-12 col-10 mx-auto">

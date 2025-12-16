@@ -29,7 +29,7 @@ const FeatureAboutArea = () => {
                      </div>
                   </div>
                </div>
-               <div className="col-xl-3 col-lg-4">
+               <div className="col-xl-3 col-lg-4 col-sm-11 mx-auto">
                   <div className="tg-tour-about-sidebar top-sticky mb-50">
                      <FeatureSidebar />
                   </div>

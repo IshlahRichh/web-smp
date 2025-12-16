@@ -9,22 +9,12 @@ const Footer = () => {
             <div className="container">
                <div className="tg-footer-top pb-40">
                   <div className="row">
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-9 mx-auto p-0">
                         <div className="tg-footer-widget mb-40">
                            <div className="tg-footer-logo mb-20">
                               <Link to="/"><img src="/assets/img/logo/logo-white.png" alt="" /></Link>
                            </div>
                            <p className="mb-20">Sekolah Islam yang Humanis dan Futuris.</p>
-                           {/* <div className="tg-footer-form mb-30">
-                              <form onSubmit={(e) => e.preventDefault()}>
-                                 <input type="email" placeholder="Enter your mail" />
-                                 <button className="tg-footer-form-btn" type="submit">
-                                    <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M1.52514 8.47486H20.4749M20.4749 8.47486L13.5 1.5M20.4749 8.47486L13.5 15.4497" stroke="white" strokeWidth="1.77778" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                 </button>
-                              </form>
-                           </div> */}
                            <div className="tg-footer-social">
                               <Link to="https://www.instagram.com/spemduta"><i className="fab fa-instagram"></i></Link>
                               <Link to="https://www.tiktok.com/@spemduta"><i className="fab fa-tiktok"></i></Link>
@@ -33,7 +23,10 @@ const Footer = () => {
                            </div>
                         </div>
                      </div>
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-6">
+                     <div className="col-1 d-block d-lg-none">
+                        
+                     </div>
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-5 mx-auto">
                         <div className="tg-footer-widget tg-footer-link ml-80 mb-40">
                            <h3 className="tg-footer-widget-title mb-25">Quick Links</h3>
                            <ul>
@@ -45,7 +38,7 @@ const Footer = () => {
                            </ul>
                         </div>
                      </div>
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-6">
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-2 col-5 mx-auto p-0">
                         <div className="tg-footer-widget tg-footer-link mb-40">
                            <h3 className="tg-footer-widget-title mb-25">Program Kelas</h3>
                            <ul>
@@ -55,7 +48,7 @@ const Footer = () => {
                            </ul>
                         </div>
                      </div>
-                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-11 mx-auto">
                         <div className="tg-footer-widget tg-footer-info mb-40">
                            <h3 className="tg-footer-widget-title mb-25">Information</h3>
                            <ul>

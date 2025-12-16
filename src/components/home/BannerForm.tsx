@@ -75,87 +75,41 @@ const BannerForm = () => {
       <div className="tg-booking-form-area tg-booking-form-space pb-105">
          <div className="container">
             <div className="row justify-content-center">
-               <div className="col-lg-7">
+               <div className="col-lg-6 col-md-8">
                   <div className="">
-                     {/* Countdown Gelombang */}
+                     {/* Countdown Gelombang - Flash Sale Style */}
                      <div 
-                        className="p-4 rounded-x3l text-center position-relative"
+                        className="p-4 text-center position-relative"
                         style={{
                            background: 'white',
-                           boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
+                           boxShadow: '0 10px 40px rgba(0,0,0,0.08)',
                            borderRadius: '20px',
-                           border: '1px solid rgba(0,0,0,0.05)'
+                           border: '1px solid rgba(0,0,0,0.05)',
+                           marginTop: '40px'
                         }}
                      >
-                        {/* Avatar Circle */}
-                        <div style={{
-                           position: 'absolute',
-                           top: '-30px',
-                           left: '50%',
-                           transform: 'translateX(-50%)',
-                           width: '60px',
-                           height: '60px',
-                           borderRadius: '50%',
-                           overflow: 'hidden',
-                           border: '4px solid white',
-                           boxShadow: '0 4px 15px rgba(0,0,0,0.15)',
-                           background: 'linear-gradient(135deg, #006cff 0%, #0052cc 100%)',
-                           display: 'flex',
-                           alignItems: 'center',
-                           justifyContent: 'center',
-                           fontSize: '28px',
-                           color: 'white'
-                        }}>
-                           🎓
-                        </div>
-
-                        {/* Header dengan spacing untuk avatar */}
-                        <div style={{ marginTop: '20px' }}>
-                           {/* Badge Info */}
-                           <div style={{
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '8px',
-                              background: '#f0f9ff',
-                              padding: '6px 16px',
-                              borderRadius: '20px',
-                              marginBottom: '12px',
-                              border: '1px solid #bae6fd'
-                           }}>
-                              <span style={{
-                                 width: '8px',
-                                 height: '8px',
-                                 background: '#0ea5e9',
-                                 borderRadius: '50%',
-                                 display: 'inline-block'
-                              }}></span>
-                              <span style={{ fontSize: '13px', color: '#0369a1', fontWeight: '600' }}>
-                                 SPMB Tahun Ajaran 2025/2026
-                              </span>
-                           </div>
-
-                           {/* Nama Gelombang */}
-                           <h3
+                        {/* Header */}
+                        <div style={{ marginBottom: '20px' }}>
+                           {/* Nama Gelombang - Main Title */}
+                           <h2
                               className="fw-bold mb-2"
                               style={{ 
                                  color: "#1a1a1a",
-                                 fontSize: '24px',
-                                 marginTop: '8px'
+                                 fontSize: 'clamp(20px, 5vw, 26px)',
+                                 letterSpacing: '-0.5px',
+                                 marginBottom: '8px'
                               }}
                            >
                               {gelombangAktif.nama}
-                           </h3>
+                           </h2>
 
-                           {/* Periode */}
-                           <div className="mb-3" style={{ fontSize: '15px', color: '#666' }}>
-                              <span>Periode:</span>{" "}
-                              <span className="fw-bold" style={{ color: "#006cff" }}>
-                                 {gelombangAktif.periode}
-                              </span>
+                           {/* Subtitle - Small Info */}
+                           <div style={{ fontSize: '12px', color: '#999', lineHeight: '1.6' }}>
+                              <div>Tahun Ajaran 2025/2026</div>
+                              <div>Periode: <span style={{ color: '#006cff', fontWeight: '600' }}>{gelombangAktif.periode}</span></div>
                            </div>
-
-                           {/* Potongan - Badge Style */}
-                           <div className="mb-4">
+                        </div>
+                        <div className="mb-4">
                               {gelombangAktif.potongan !== "-" ? (
                                  <div style={{
                                     background: 'linear-gradient(135deg, #006cff 0%, #0052cc 100%)',
@@ -167,36 +121,115 @@ const BannerForm = () => {
                                     fontSize: '16px',
                                     fontWeight: '600'
                                  }}>
-                                    🎉 Promo: {gelombangAktif.potongan}
+                                    Promo: {gelombangAktif.potongan}
                                  </div>
                               ) : (
                                  <span className="text-muted">
                                     Tanpa potongan khusus
                                  </span>
                               )}
+                        </div>
+                        {/* Countdown Timer Boxes */}
+                        <div className="d-flex justify-content-center align-items-center gap-2 mb-4" style={{ maxWidth: '380px', margin: '0 auto 24px' }}>
+                           {/* Days */}
+                           <div style={{
+                              background: '#f5f5f5',
+                              borderRadius: '10px',
+                              padding: '16px 12px',
+                              flex: '1',
+                              textAlign: 'center',
+                              minWidth: '65px'
+                           }}>
+                              <div style={{ 
+                                 fontSize: 'clamp(24px, 5vw, 32px)', 
+                                 fontWeight: '700', 
+                                 color: '#1a1a1a',
+                                 lineHeight: '1',
+                                 marginBottom: '6px'
+                              }}>
+                                 {String(countdown.days).padStart(2, '0')}
+                              </div>
+                              <div style={{ fontSize: '10px', color: '#999', textTransform: 'capitalize', fontWeight: '500' }}>
+                                 Days
+                              </div>
                            </div>
 
-                           {/* Countdown Box */}
-                           <div
-                              className="p-3 rounded-3"
-                              style={{
-                                 background: 'linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%)',
-                                 border: '1px solid #fecaca',
-                                 marginTop: '16px'
-                              }}
-                           >
-                              <div style={{ fontSize: '14px', color: '#991b1b', marginBottom: '8px', fontWeight: '500' }}>
-                                 ⏰ Berakhir dalam:
-                              </div>
-                              <div style={{
-                                 fontSize: '20px',
-                                 fontWeight: 'bold',
-                                 color: '#dc2626',
-                                 fontFamily: 'monospace',
-                                 letterSpacing: '1px'
+                           {/* Separator */}
+                           <div style={{ fontSize: '24px', fontWeight: 'bold', color: '#ddd', margin: '0 -4px' }}>:</div>
+
+                           {/* Hours */}
+                           <div style={{
+                              background: '#f5f5f5',
+                              borderRadius: '10px',
+                              padding: '16px 12px',
+                              flex: '1',
+                              textAlign: 'center',
+                              minWidth: '65px'
+                           }}>
+                              <div style={{ 
+                                 fontSize: 'clamp(24px, 5vw, 32px)', 
+                                 fontWeight: '700', 
+                                 color: '#1a1a1a',
+                                 lineHeight: '1',
+                                 marginBottom: '6px'
                               }}>
-                                 {countdown.days}h {countdown.hours}j{" "}
-                                 {countdown.minutes}m {countdown.seconds}d
+                                 {String(countdown.hours).padStart(2, '0')}
+                              </div>
+                              <div style={{ fontSize: '10px', color: '#999', textTransform: 'capitalize', fontWeight: '500' }}>
+                                 Hours
+                              </div>
+                           </div>
+
+                           {/* Separator */}
+                           <div style={{ fontSize: '24px', fontWeight: 'bold', color: '#ddd', margin: '0 -4px' }}>:</div>
+
+                           {/* Minutes */}
+                           <div style={{
+                              background: '#f5f5f5',
+                              borderRadius: '10px',
+                              padding: '16px 12px',
+                              flex: '1',
+                              textAlign: 'center',
+                              minWidth: '65px'
+                           }}>
+                              <div style={{ 
+                                 fontSize: 'clamp(24px, 5vw, 32px)', 
+                                 fontWeight: '700', 
+                                 color: '#1a1a1a',
+                                 lineHeight: '1',
+                                 marginBottom: '6px'
+                              }}>
+                                 {String(countdown.minutes).padStart(2, '0')}
+                              </div>
+                              <div style={{ fontSize: '10px', color: '#999', textTransform: 'capitalize', fontWeight: '500' }}>
+                                 Minutes
+                              </div>
+                           </div>
+
+                           {/* Separator */}
+                           <div style={{ fontSize: '24px', fontWeight: 'bold', color: '#ddd', margin: '0 -4px' }}>:</div>
+
+                           {/* Seconds */}
+                           <div style={{
+                              background: '#f5f5f5',
+                              borderRadius: '10px',
+                              padding: '16px 12px',
+                              flex: '1',
+                              textAlign: 'center',
+                              minWidth: '65px'
+                           }}>
+                              <div style={{ 
+                                 fontSize: 'clamp(24px, 5vw, 32px)', 
+                                 fontWeight: '700', 
+                                 color: '#1a1a1a',
+                                 lineHeight: '1',
+                                 
+                                 marginBottom: '6px'
+                              }}>
+                                 {String(countdown.seconds).padStart(2, '0')}
+                              </div>
+                              <div style={{ fontSize: '10px', color: '#999', textTransform: 'capitalize', fontWeight: '500' }}>
+                                 Seconds
                               </div>
                            </div>
                         </div>

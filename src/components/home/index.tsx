@@ -12,7 +12,7 @@ import BannerForm from "./BannerForm"
 import Footer from "../../layouts/footers/Footer"
 // import Alur from"./Alur";
 
-const HomeThree = () => {
+const Home = () => {
    return (
       <>
          <Header />
@@ -28,4 +28,4 @@ const HomeThree = () => {
    )
 }
 
-export default HomeThree
+export default Home

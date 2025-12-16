@@ -10,7 +10,7 @@ const Choose = () => {
 			<img className="tg-chose-shape p-absolute d-none d-lg-block" style={{ marginLeft: '-70px' }} src="/assets/img/chose/school-shape.png" alt="shape" />
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-5 col-12">
+					<div className="col-lg-5 col-11 m-auto">
 						<div className="tg-chose-content mb-100">
 							<div className="tg-chose-section-title mb-30">
 								{/* <h5 className="tg-section-subtitle mb-15 wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".1s">Dream Your Next Class</h5> */}

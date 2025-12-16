@@ -1,9 +1,9 @@
 const Included = () => {
    return (
       <div className="tg-tour-about-inner mb-40">
-         <h4 className="tg-tour-about-title mb-20">Kegiatan Program Kelas Excellent</h4>
          <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-7 col-11 m-auto m-lg-0">
+               <h4 className="tg-tour-about-title mb-20">Kegiatan Program Kelas Excellent</h4>
                <div className="tg-tour-about-list  tg-tour-about-list-2">
                   <ul>
                      <li>

@@ -243,77 +243,83 @@ const location_data: DataType[] = [
       id: 1, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-1.jpg", 
-      title: "Paris" 
+      title: "about-1" 
    },
 
    { 
       id: 2, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-2.jpg", 
-      title: "London" 
+      title: "about-2" 
    },
 
    { 
       id: 3, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-3.jpg", 
-      title: "New York" 
+      title: "about-3" 
    },
 
    { 
       id: 4, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-4.jpg", 
-      title: "Tokyo" 
+      title: "about-4" 
    },
 
    { 
       id: 5, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-5.jpg", 
-      title: "Rome" 
+      title: "about-5" 
    },
 
    { 
       id: 6, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-6.jpg", 
-      title: "Berlin" 
+      title: "about-6" 
    },
 
    { 
       id: 7, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-7.jpg", 
-      title: "Barcelona" 
+      title: "about-7" 
    },
 
    { 
       id: 8, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-8.jpg", 
-      title: "Amsterdam" 
+      title: "about-8" 
    },
 
    { 
       id: 9, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-9.jpg", 
-      title: "Seoul" 
+      title: "about-9" 
    },
 
    { 
       id: 10, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-10.jpg", 
-      title: "Dubai" 
+      title: "about-10" 
    },
 
    { 
       id: 11, 
       page: "about", 
       thumb: "/assets/img/about/thumb/img-11.jpg", 
-      title: "Sydney" 
+      title: "about-11" 
+   },
+   { 
+      id: 11, 
+      page: "about", 
+      thumb: "/assets/img/about/thumb/img-12.jpg", 
+      title: "about-12" 
    },
 ];
 

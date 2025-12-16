@@ -44,7 +44,7 @@ const Testimonial = () => {
       <div className="tg-testimonial-area pt-105 pb-100">
          <div className="container">
             <div className="row">
-               <div className="col-lg-12">
+               <div className="col-lg-12 col-11 m-auto">
                   <div className="tg-location-section-title text-center mb-30">
                      <h5 className="tg-section-subtitle mb-15 wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".9s">Testimonials</h5>
                      <h2 className="mb-15 text-capitalize wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".9s">Pandangan Mereka Tentang Spemduta</h2>

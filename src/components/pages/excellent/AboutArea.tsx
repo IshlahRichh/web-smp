@@ -4,7 +4,7 @@ import Included from "./Included";
 
 const AboutArea = () => {
    return (
-      <div className="tg-about-area p-relative z-index-1 pt-140 pb-105">
+      <div className="tg-about-area p-relative z-index-1 pt-105 pb-105">
          <img className="tg-about-details-shape p-absolute d-none d-lg-block" src="/assets/img/about/details/shape.png" alt="shape" />
          <div className="container">
             <div className="row align-items-center">
@@ -24,7 +24,7 @@ const AboutArea = () => {
                      }}></div>
                   </div>
                </div>
-               <div className="col-lg-6">
+               <div className="col-lg-6 col-11 m-auto">
                   <div className="tg-chose-content mb-35 ml-60">
                      <div className="tg-chose-section-title mb-30">
                         <h5 className="tg-section-subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".1s">Program Kelas</h5>
