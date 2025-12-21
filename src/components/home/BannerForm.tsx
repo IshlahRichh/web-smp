@@ -17,7 +17,7 @@ const gelombangList: Gelombang[] = [
    },
    {
       nama: "Gelombang Inden",
-      potongan: "Potongan 40%",
+      potongan: "Potongan 30% + 20%",
       periode: "Oktober - Desember",
       tanggalAkhir: new Date("2025-12-31T23:59:59"),
    },

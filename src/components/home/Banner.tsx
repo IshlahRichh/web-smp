@@ -36,7 +36,14 @@ const Banner = () => {
 					{banner_thumb.map((thumb, i) => (
 						<SwiperSlide key={i} className="swiper-slide">
 							<div className="tg-hero-bg">
-								<div className="tg-hero-thumb" style={{ backgroundImage: `url(${thumb})` }}></div>
+								<img 
+									src={thumb} 
+									alt={`Hero slide ${i + 1}`}
+									className="tg-hero-thumb" 
+									fetchPriority="high" 
+									loading="eager"
+									style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+								/>
 							</div>
 						</SwiperSlide>
 					))}

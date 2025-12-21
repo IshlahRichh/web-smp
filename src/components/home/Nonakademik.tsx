@@ -61,7 +61,7 @@ const Location = () => {
                            <div className="bg-white tg-round-25 p-relative z-index-1">
                               <div className="tg-location-wrap p-relative mb-30">
                                  <div className="tg-location-thumb">
-                                    <img className="w-100" src={item.thumb} alt="location" />
+                                    <img className="w-100" src={item.thumb} alt="location" loading="lazy" />
                                  </div>
                                  <div className="tg-location-content text-center">
                                     <span className="tg-location-time">{item.total}</span>
